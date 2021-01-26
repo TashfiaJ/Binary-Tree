@@ -17,11 +17,11 @@ void PreOrderTree(int start, int en, int tid)
 
     string cur = pre[pre_id++]; // current index of PreOrder array
 
-    /*if (start == en)
+    if (start == en)
     {
         tree[tid] = cur;
         return;
-    }*/
+    }
 
     int i;
     for (i = start; i <= en; i++) // finding out the index of current element
